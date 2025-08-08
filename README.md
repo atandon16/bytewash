@@ -43,6 +43,6 @@ pip install flask pandas openpyxl
 python app.py
 ```
 
-### 5. Open the app in your browser
+### 3. Open the app in your browser
 Visit http://127.0.0.1:5000
 
