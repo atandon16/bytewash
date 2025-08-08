@@ -18,12 +18,14 @@ Bytewash is a minimal Flask web application for uploading CSV/Excel files, clean
 ---
 
 ## 📂 Project Structure
+```bash
 Bytewash/
 ├── app.py # Flask app code
 ├── uploads/ # Uploaded files (auto-created)
 ├── reports/ # Generated reports (auto-created)
 ├── templates/ # HTML templates
 └── README.md
+```
 
 ---
 
