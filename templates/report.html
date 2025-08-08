@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ByteWash Report</title>
+</head>
+<body>
+    <h1>Data Health Report</h1>
+    <p>Total rows: {{ total_rows }}</p>
+    <p>Duplicates found: {{ duplicate_count }}</p>
+    <h3>Missing Data:</h3>
+    <ul>
+        {% for col, missing in missing_counts.items() %}
+            <li>{{ col }}: {{ missing }} missing</li>
+        {% endfor %}
+    </ul>
+    <h3>Cleaned Sample</h3>
+    {{ cleaned_sample | safe }}
+</body>
+</html>

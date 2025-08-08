@@ -1,0 +1,6 @@
+flask
+pandas
+openpyxl
+matplotlib
+jinja2
+pandas-profiling
